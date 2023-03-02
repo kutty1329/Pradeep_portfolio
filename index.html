@@ -14,41 +14,61 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body  class="hero col-lg-4 col-md-5 col-sm-12">
-<div>
-        
+<body  class="hero">
+    <div>
         <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#pradeep">ABOUT</a></li>
-                <li><a href="#port">PORTFOLIO</a></li>
-                <li><a href="#skil">SKILLS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+             <div class="navbar  fixed-top navbar-expand-lg navbar-light bg-secondary ">
+        <a class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item me-3">
+                    <a class="nav-link text-dark" href="#home"><b>HOME</b></a> 
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link text-dark" href="#pradeep"><b>ABOUT</b></a> 
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link text-dark" href="#skil"><b>SKILLS</b></a> 
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link text-dark" href="#port"><b>PORTFOLIO</b></a> 
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link text-dark" href="#contact"><b>CONTACT</b></a> 
+                </li>
+
             </ul>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/pradeep-n-81b653261/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/kutty1329/" target="_blank"><i class="bi bi-github"></i></a>
-                <a href="tel:7904201927"><i class="bi bi-person-rolodex"></i></a>
-             </div>
-            
+        </div>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/pradeep-n-81b653261/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/kutty1329/" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="tel:7904201927"><i class="bi bi-person-rolodex"></i></a>
+         </div>
+    </div>
+
         </nav>
 
+
         <div class="detel" id="home">
+
              <h1><b>PRADEEP N ,</b>
              <br><span><b>Full Stack Developer</b></span></h1>
              <p>Ability to self-groom to quickly learn and work with new technologies.</p>
              <br>
              <a href="./Images/PRADEEP.pdf" download="PRADEEP'S Resume">
              <button class="btn btn-outline text-dark btn-lg " type="submit">Download CV</button></a>
-        </div>
-        
 
-       <diV class="images">
-            <img src="Images/pra.png" class="boy">
+             <diV class="images d-none d-lg-block d-print-block">
+                <img src="Images/pra.png" class="boy">
+            
+            </diV>
+             
+        </div>    
 
-       </diV> 
-
-<div class="detel col" id="pradeep">
+<div class="detel lg-4 md-5 sm-12" id="pradeep">
         <h3><b>My Skills </b></h3>
         <br><span><h2><b>About Me ?</b></h2></span>
         <p>Seeking a career in challenging environment that enhances continuous 
@@ -59,7 +79,7 @@
         <br>
         <hr>
 
- <div class="row row justifiy-content-center" id="skil">
+ <div class="row row justifiy-content-center lg-4 md-5 sm-12" id="skil">
 
             <div class="col-5">
                 <h3><i class="bi bi-server"></i>BACKEND</h3>
@@ -112,33 +132,64 @@
 </div>
 <br>
 <hr>
- <div class="container" id="port">
+<div class="container" id="port">
     <br><span><h2><b>MY PORTFOLIO</b></h2></span>
-    <h2><b>This is My Personal Projects </b></h2>
-    <div>
-        <div>
-            <ul>
+    <h2><b>This is My Personal Projects ; </b></h2>
+    <br>
+    <div class="row shadow-lg">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><b><i class="bi bi-book-fill"></i>CHECKOUT-FORM</b></h5>
+              <p class="card-text"><br><b>DESCRPTION :</b>
+                 
                 <br>
-                <li>My Frst Project <b><i class="bi bi-apple"></i>Apple web site</b> use by HTML tags only</li>
-                <br>
-                
-                <li>Create website <b><i class="bi bi-hash"></i>HASHTAG-SUPER-MARKET SALE</b> make 2 version type 
-                    <h6>1.BOOSTRAP</h6>
-                    <h6>2.REACT JS</h6>    
-                </li>
-                <br>
-                <li>Crudel performance by using<b><i class="bi bi-database"></i> BACK-END PROJECT</b></li>
-                <br>
-                <li>Create <b><i class="bi bi-book-fill"></i> BOOSTRAP-CHECKOUT-FORM</b></li>
-                
-            </ul>
 
+                   1.Application Form
+                   <br>
+                   2.Using By BOOSTRAP
+                   <br>
+                   3.Validate By Java Script
+                   <br></p>
+                   
+            <a href="https://kutty1329.github.io/checkout-form/" target="_blank"class="btn btn-primary float-end"><b>ViewPage</b></a>
+          </div>
         </div>
+      </div>
+        <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><b><i class="bi bi-apple"></i>Apple web site</b></h5>
+                <p class="card-text"><br><b>DESCRPTION :</b>
+                 
+                    <br>
 
-    </div>
-    
-    
+                       1.Apple Home page
+                       <br>
+                       2.Using By HTML tags
+                       <br>
+                       3.Model Page
+                       <br></p>
+                       
+                <a href="https://kutty1329.github.io/Apple/" target="_blank"class="btn btn-primary float-end"><b>ViewPage</b></a>
+              </div>
+            </div>
+          </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> <b><i class="bi bi-hash"></i>HASHTAG-SUPER-MARKET SALE</b></h5>
+              <p class="card-text"><b>DESCRPTION :</b><br>  <br>
+                1.Design By Boostrap<br> 2. Model Front Page
+              </p>
+              <a href="https://kutty1329.github.io/-hashtag/" target="_blank" class="btn btn-primary float-end">ViewPage</a>
+            </div>
+          </div>
+        </div>
+      </div>  
 </div>
+<br>
+<hr>
 
  <div class="detel container" id="contact">
 
@@ -192,13 +243,13 @@
             <footer class="d-flex col-12" me-5>
                 <p class="text-dark col-5"><b><i class="bi bi-c-circle"></i>2023.All Rights Reserved</b></p>
                 <p class="text-dark col-5"><b><i class="bi bi-person-circle"></i>Designed by Pradeep</b></p>
-                <p class="text-dark col-2"><b><i class="bi bi-arrow-up-circle-fill"></i>PageUP</b></p>
+                <p class="text-dark col-5"><b><i class="bi bi-book"></i>Thanks For VistingPage</b></p>
+                
             </footer>
+            
  </div>
 
  </div>
-
-   <script src="./src/index.js"></script>
     
 </body>
 </html>

@@ -58,8 +58,8 @@ span{
     border-radius: 5px;
 }
 .images{
-    width: 45%;
-    height: 80%;
+    width: 35%;
+    height: 70%;
     position: absolute;
     bottom: 0;
     right: 100px;
@@ -93,3 +93,9 @@ span{
     gap: 1.5rem;
     text-align: center;
 }
+#mynavbar{
+    
+        overflow: hidden;
+      
+}
+
